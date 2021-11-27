@@ -1,4 +1,4 @@
-/* Carrom board disgn , without using using OpenGL :) */
+/* Carrom board disgn , Hash minner :) */
 
 #include <iostream>
 #include <cmath>
