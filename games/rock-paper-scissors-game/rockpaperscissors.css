@@ -1,0 +1,26 @@
+.button {
+    background-color: aqua;
+    height: 40px;
+    width: 120px;
+    color: rgba(13, 56, 228, 0.964);
+    font-family: 'Courier New';
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 50px;
+    
+}
+
+.btn-div {
+    text-align: center; 
+}
+
+.disply-div {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+body {
+    background-color: aquamarine;
+}
