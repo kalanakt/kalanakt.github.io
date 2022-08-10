@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+    <head>
+        <title>PyScript Tests</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    </head>
+    <body>
+        <py-env>
+            - paths:
+                - mathsl.py
+        </py-env>
+        <py-script src="./main.py"></py-script>
+        <py-script>
+            from mathsl import add
+            print(add(3, 6))
+        </py-script>
+        <py-repl> </py-repl>
+    </body>
+</html>
