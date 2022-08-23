@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+.tags a {
+    color: white;
+    text-decoration: none;
+}
+#scroll-up {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    color: #2c2f33;
+    cursor: pointer;
+    text-align: center;
+}
+.splide__slide .card,
+.splide__slide .box {
+    height: 100%;
+}

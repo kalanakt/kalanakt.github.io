@@ -1,20 +1,389 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html class="has-navbar-fixed-top">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>KT</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <meta name="propeller" content="33af657288784b42d08c3818322fed61">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>kalana kt</title>
+        <meta name="title" content="kalana kt" />
+        <meta
+            name="description"
+            content="Hey, I'm Adnan from New Delhi, India. I am 19 year old. Currently studying Electrical Engineering from G. B. Pant Institute of Technology. I would like to play virtual games rather than outdoor games."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://kalanakt.github.io/" />
+        <meta property="og:title" content="kalana kt" />
+        <meta
+            property="og:description"
+            content="Hey, I'm Adnan from New Delhi, India. I am 19 year old. Currently studying Electrical Engineering from G. B. Pant Institute of Technology. I would like to play virtual games rather than outdoor games."
+        />
+        <meta property="og:image" content="images/profile-banner.jpg" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://kalanakt.github.io/" />
+        <meta property="twitter:title" content="kalana kt" />
+        <meta
+            property="twitter:description"
+            content="Hey, I'm Adnan from New Delhi, India. I am 19 year old. Currently studying Electrical Engineering from G. B. Pant Institute of Technology. I would like to play virtual games rather than outdoor games."
+        />
+        <meta property="twitter:image" content="images/profile-banner.jpg" />
+
+        <link rel="icon" href="https://img.icons8.com/cotton/150/000000/administrator-male.png" type="image/x-icon" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://inklinkor.com/tag.min.js',5262382,document.body||document.documentElement)</script>
-        <script src="" async defer></script>
+        <nav class="navbar is-light is-fixed-top">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item is-size-4 has-text-weight-bold animate__animated animate__tada animate__delay-2s">kalanakt</a>
+                    <span class="navbar-burger" data-target="navbarMenuHero">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div id="navbarMenuHero" class="navbar-menu">
+                    <div id="tab-menu" class="navbar-end">
+                        <a href="#works-section" class="navbar-item has-text-weight-bold">Works</a>
+                        <a href="#open-source-section" class="navbar-item has-text-weight-bold">Open Source</a>
+                        <a href="#contact-section" class="navbar-item has-text-weight-bold">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="hero is-fullheight">
+            <div class="hero-body" data-aos="zoom-in-down" data-aos-duration="1500">
+                <div id="display" class="container">
+                    <p class="title is-1">kalana kt</p>
+                    <p class="subtitle is-6">🧠 Installing AI in my brain...</p>
+                    <p class="subtitle">
+                        Hey, I'm <strong>kalanakt</strong> from <strong>Sri Lanka,</strong>. I am <strong>22</strong> year old.
+                        <strong>Engineering</strong> At University of peradeniya, Sl. I would like to spend time with <strong><code>Code</code></strong>
+                    </p>
+                    <div class="tags">
+                        <span class="tag animate__animated animate__jello animate__delay-3s" style="background-color: #7289da; color: white"
+                            ><i class="fas fa-bolt"></i>&nbsp;Engineer</span
+                        >
+                        <span class="tag animate__animated animate__jello animate__delay-4s" style="background-color: #2c2f33; color: white"
+                            ><i class="fas fa-code"></i>&nbsp;Programmer</span
+                        >
+                        <span class="tag animate__animated animate__jello animate__delay-5s" style="background-color: #dc143c; color: white"
+                            ><i class="fas fa-gamepad"></i>&nbsp;Gamer</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero" id="works-section">
+            <div class="hero-body">
+                <p class="title">Works</p>
+                <p class="subtitle is-6" data-aos="fade-right">Apps, softwares and websites made by me.</p>
+
+                <div id="image-slider" class="splide">
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <div class="m-3 splide__slide" data-aos="flip-up">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://img.icons8.com/color/144/000000/movies-folder.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">Storage</p>
+                                                <p class="subtitle is-6"><a href="https://storage.kalanakt.ga">storage.kalanakt.ga</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">Indexing Google Drive files by combining the power of Google Drive and Cloudflare Workers</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-3 splide__slide" data-aos="flip-right">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://img.icons8.com/color/148/000000/cloud-storage.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">ViperCloud</p>
+                                                <p class="subtitle is-6"><a href="#">not available</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">A public cloud which uses Google Drive as storage. Anyone can upload files here and access it anytime</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-3 splide__slide" data-aos="flip-down">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://img.icons8.com/cotton/128/000000/add-to-loud.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">ViperInstance</p>
+                                                <p class="subtitle is-6"><a href="#">not available</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">A self hosted AriaNG server which is used to upload files to ViperCloud</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-3 splide__slide" data-aos="flip-left">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://img.icons8.com/fluency/48/000000/smart-home-connection.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">SwitchBot</p>
+                                                <p class="subtitle is-6"><a href="https://github.com/kalanakt/SwitchBot">kalanakt.ga/switchbot</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            IoT-based applet to control electrical switches through API. Can be integrated with cross-platform applications for automation.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-3 splide__slide" data-aos="flip-left">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://img.icons8.com/fluent/148/000000/cloud-firewall.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">Website Unblocker</p>
+                                                <p class="subtitle is-6"><a href="https://arnid.ga">arnid.ga</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">A website unblocker hosted on Cloudflare Workers which makes it lightening fast.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-3 splide__slide" data-aos="flip-up">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://img.icons8.com/color/144/000000/musical--v1.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">Musically</p>
+                                                <p class="subtitle is-6"><a href="https://musically.netlify.app">musically.netlify.app</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">A song streaming service which uses JoiSaavn for fetching latest songs and aimed to provide clean UX</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-3 splide__slide" data-aos="flip-right">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://img.icons8.com/stickers/150/000000/wallpaper.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">Wallpaper API</p>
+                                                <p class="subtitle is-6"><a href="https://wlpr34.herokuapp.com">wlpr34.herokuapp.com</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">An app which can use different wallpapers sites to scrape images and serve them through API</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-3 splide__slide" data-aos="flip-down">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://img.icons8.com/color/148/000000/shorten-urls.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">TIINY</p>
+                                                <p class="subtitle is-6"><a href="https://tiiny.tk">tiiiny.tk</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">Tiiny is an URL shortener service made using NodeJS and ❤. Absolutely free forever with custom URL support.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-3 splide__slide" data-aos="flip-left">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://img.icons8.com/color/148/000000/paste.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">Pasting</p>
+                                                <p class="subtitle is-6"><a href="https://pasting.ga">pasting.ga</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">Pasting is free and open-source pastebin service in which you can make richly formatted posts too.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-3 splide__slide" data-aos="flip-up">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://img.icons8.com/fluent/148/000000/sent.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">Telegram Indexer</p>
+                                                <p class="subtitle is-6"><a href="https://pasting.ga">pasting.ga</a></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            A publically acessible (no login required) web interface for Telegram. Mainly used for generating direct download links for Telegram
+                                            Files.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-3 splide__slide" data-aos="flip-right">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <figure class="image is-48x48">
+                                                    <img src="https://heroku.kalanakt.gq/static/images/awake/awake-logo-510x530.png" alt="image" />
+                                                </figure>
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">Heroku Duo</p>
+                                                <p class="subtitle is-6"><a href="https://heroku.kalanakt.ga">heroku.kalanakt.ga</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="content">An app which can ping your Heroku app at every 30 minutes so it never goes to sleep.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero" id="open-source-section">
+            <div class="hero-body" data-aos="fade-right">
+                <p class="title">Open Source Projects</p>
+                <p class="subtitle is-6">On Github and other contributions towards open-source community.</p>
+
+                <div id="github-info">
+                    <button class="button is-fullwidth is-loading">Loading...</button>
+                </div>
+
+                <div id="repo-slider" class="splide">
+                    <div class="splide__track">
+                        <div id="repo_list" class="splide__list">
+                            <div class="column is-3" data-aos="zoom-in">
+                            <div class="box">
+                                <div class="content">
+                                    <p>
+                                        <i class="fas fa-book"></i> <a href="http://#"><strong>kalanakt.github.io</strong></a>
+                                        <br />
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                                    </p>
+                                </div>
+                                <nav class="level is-mobile">
+                                    <div class="level-left">
+                                        <span class="level-item" aria-label="reply"> <i class="fas fa-code" style="color: #1877f2"></i>&nbsp;Reply </span>
+                                        <span class="level-item" aria-label="reply"> <i class="fas fa-star" style="color: #ff7300"></i>&nbsp;254 </span>
+                                        <span class="level-item" aria-label="reply"> <i class="fas fa-code-branch" style="color: #6000df"></i>&nbsp;15 </span>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero" id="contact-section">
+            <div class="hero-body" data-aos="fade-up">
+                <p class="title">Contact</p>
+                <p class="subtitle is-6">Feel free to get in touch, I am always open for discussing new projects, work on creative ideas and grabbing opportunities.</p>
+                <div class="tags">
+                    <a href="https://www.google.com/search?q=kalanakt" class="tag is-medium" style="color: black"
+                        ><i class="fab fa-google" style="color: #4285f4"></i>&nbsp;Google</a
+                    >
+                    <a href="mailto:e19198@eng.pdn.ac.lk?cc=kalanakt@pm.me&subject=From%20Portfolio%3A" class="tag is-medium" style="background-color: #ea4335"
+                        ><i class="fas fa-envelope"></i>&nbsp;Email</a
+                    >
+                    <a href="https://www.facebook.com/kalana.kithmina.735"" class="tag is-medium" style="background-color: #1877f2"><i class="fab fa-facebook"></i>&nbsp;Facebook</a>
+                    <a href="https://www.instagram.com/kalanakt_" class="tag is-medium" style="background-color: #e4405f"><i class="fab fa-instagram"></i>&nbsp;Instagram</a>
+                    <a href="https://twitter.com/ktintwt" class="tag is-medium" style="background-color: #1da1f2"><i class="fab fa-twitter"></i>&nbsp;Twitter</a>
+                    <a href="https://github.com/kalanakt" class="tag is-medium" style="background-color: #181717"><i class="fab fa-github"></i>&nbsp;Github</a>
+                    <a href="https://t.me/kalanakt" class="tag is-medium" style="background-color: #26a5e4"><i class="fab fa-telegram"></i>&nbsp;Telegram</a>
+                    <a href="https://www.linkedin.com/in/kalanakt" class="tag is-medium" style="background-color: #0a66c2"
+                        ><i class="fab fa-linkedin"></i>&nbsp;Linkedin</a
+                    >
+                    <a href="https://youtube.com/kalanakt" class="tag is-medium" style="background-color: #ff0000"><i class="fab fa-youtube"></i>&nbsp;YouTube</a>
+                    <a href="https://wa.me/94760351335" class="tag is-medium" style="background-color: #25d366"><i class="fab fa-whatsapp"></i>&nbsp;WhatsApp</a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="content has-text-centered">
+                <p class="is-size-7">
+                    Copyright &copy; 2022 &mdash; All rights reserved
+                    <br />
+                    <a href="https://kalanakt.github.io/pages/privacy-policy">Privacy</a>
+                    &#x2022; <a href="https://kalanakt.github.io/pages/privacy-policy">Terms & Conditions</a> &#x2022;
+                    <a href="https://kalanakt.github.io/pages/privacy-policy">Cookies</a>
+                    <br />
+                    <b>kalana kt</b>
+                </p>
+            </div>
+        </footer>
+
+        <span id="scroll-up" class="icon icon is-large" onclick="scrollToTop()"><i class="fas fa-angle-up fa-2x"></i></span>
+        <script src="app/font-awesome.js"></script>
+        <script src="app/index.js"></script>
+        <script src="dist/canvas-nest.js"></script>
     </body>
 </html>
